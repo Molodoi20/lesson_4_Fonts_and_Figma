@@ -1,0 +1,39 @@
+body {
+	font-family: "Lato", sans-serif;
+	margin: 0 652px 0 458px;
+	font-size: 16px;
+}
+.header {
+	font-weight: 900;
+	font-style: normal;
+	text-align: left;
+	margin-bottom: 41px;
+}
+.header h1 {
+	font-size: 46px;
+	font-weight: 900;
+}
+.text {
+	font-weight: 700;
+	margin-top: 60px;
+	font-size: 20px;
+}
+.education {
+	margin-top: 24px;
+}
+.paragraph {
+	font-weight: 700;
+	margin-left: 50px;
+	margin-top: 48px;
+	font-size: 20px;
+}
+.lorem {
+	margin-top: 48px;
+}
+.cub p {
+	margin-left: 25px;
+	margin-top: 24px;
+}
+.run {
+	margin-top: 24px;
+}

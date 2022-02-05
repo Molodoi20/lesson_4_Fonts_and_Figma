@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@font-face {
+	font-family: "Carattere-Regular";
+	src: url("../fonts/Carattere-Regular.ttf") format("ttf"), url("../fonts/Carattere-Regular.woff") format("woff"),
+		url("../fonts/Carattere-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "lato", sans-serif;
+}
+.menu {
+	color: rgba(190, 190, 190, 0.705);
+	font-size: 30px;
+	font-style: oblique;
+}
+/*.menu li {
+	color: aqua;
+}*/
+.menu + p {
+	color: rgba(49, 118, 236, 0.5);
+	font-family: "Carattere-regular", sans-serif; /*слово "Путем" не перешло на данный шрифт т.к. у этого шрифта нет кириллицы!проверил подключение*/
+}
+.menu > ol ul {
+	color: #2c241ef5;
+}
+#section {
+	color: #13195c;
+}
+.list > li a {
+	color: maroon;
+	text-decoration: none;
+}
+.list {
+	text-align: right;
+	font-size: 35px;
+}
+.block {
+	word-spacing: 15px;
+}
+.miracle {
+	color: red;
+	font-style: italic;
+}
+.miracle h1 {
+	color: #0f0f0f;
+	font-style: normal;
+	font-size: 30px;
+	text-shadow: -3px -5px 2px #2508f9, 3px 4px 2px #14121f;
+}
+
+.text.education {
+	color: #2851ed;
+	font-family: "Lato", sans-serif;
+}
+.education.paragraph {
+	color: darkorange;
+}
+.paragraph {
+	color: #0b0b0b;
+	text-transform: capitalize;
+	font-weight: 700;
+	text-shadow: 1px -3px 2px #2508f9;
+}
+.paragraph h3 {
+	text-align: center;
+}
+.paragraph span {
+	color: #2508f9;
+}
+.next {
+	color: darkgoldenrod;
+	font-family: "Carattere-regular", sans-serif; /*текст на кирилице не перешел на данный шрифт т.к. у этого шрифта нет кириллицы!проверил подключение*/
+	font-weight: 900;
+	font-size: 40px;
+	text-align: justify;
+}
+.next h4 {
+	text-align: center;
+	font-size: 30px;
+}
+.next a {
+	color: darkgreen;
+	font-size: 70px;
+}
+a {
+	color: chartreuse;
+}
+footer {
+	color: #0b0b0b;
+	font-family: "Carattere-regular";
+	font-size: 40px;
+	font-weight: 900;
+}
